@@ -12,6 +12,8 @@ body
 	position: absolute;
 	top: 0;
 	left:0;
+
+	background-color: rgba(84, 84, 84, 0.5);
 }
 
 .HeaderMenu
@@ -55,6 +57,11 @@ body
 .HeaderMenu li a:hover
 {
 	color:#333;
+}
+
+.headerLinkImg
+{
+	height: 50%;
 }
 
 .Icons
@@ -109,4 +116,60 @@ body
 
     color:white;
     text-align: center;
+}
+
+.productLink:link, .productLink:visited
+{
+	color:black;
+	text-decoration: none;
+}
+
+.product
+{
+	min-width: 100px;
+	min-height: 250px;
+
+	width:90%;
+	height: 40%;
+
+	background-color: aliceblue;
+	box-shadow: 5px 7px rgba(64,64,64, 0.5);
+
+	margin:1% 0;
+}
+
+.container
+{
+	width:90%;
+	margin: 0 5%;
+
+}
+
+.col-sm-6
+{
+	width:33%;
+	float:right;
+}
+
+.col-sm-6 img
+{
+	width:90%;
+	margin:0 5%;
+
+	height: 50%;
+}
+
+.col-sm-6 p
+{
+	margin:5%;
+}
+
+.productTitle
+{
+	font-size: 20px;
+}
+
+.productDesc
+{
+	font-size: 15px;
 }
